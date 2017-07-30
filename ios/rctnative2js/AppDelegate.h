@@ -7,7 +7,13 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
+#import "MainUiViewController.h"
+
 #import <UIKit/UIKit.h>
+
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTRootView.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
