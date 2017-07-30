@@ -1,3 +1,7 @@
+'use strict';
+
 import { AppRegistry } from 'react-native';
-import App from './App';
-AppRegistry.registerComponent('rctnative2js', () => App);
+import Constants from './src/utils/Constants';
+import App from './src/components/App';
+
+AppRegistry.registerComponent(Constants.APP_KEY_NAME, () => App);
