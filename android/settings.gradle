@@ -1,0 +1,3 @@
+rootProject.name = 'rctnative2js'
+
+include ':app'
